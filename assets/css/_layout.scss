@@ -14,12 +14,14 @@ header {
 }
 
   .tx{
+    position: absolute;
     display: flex;
-    width: 100%;
+    justify-content: start;
+    width: 50%;
     color: white;
     letter-spacing: 1px;
     font-family: Jura;
-    justify-content: end;
+    margin-left: 750px;
   }
 
 .Pesq {
