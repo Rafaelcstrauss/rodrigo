@@ -19,10 +19,18 @@
             National Aeronautics and Space Administration
         </div>
         <div class="menu">
-            <img src="assets/img/hamburguer.svg" alt="" class="menui">
+            <img src="assets/img/hamburguer.svg" alt="" class="menui" onclick="esconder()">
         </div>
     </header>
     <section class="ns">
+        <div id="menu" class="oloko">
+            <ul class="ul">
+                <li class="l-b"><img src="assets/img/hamburguer.svg" class="ham-m"> Menu</li>
+                <li class="l-b">text</li>
+                <li class="l-b">text</li>
+                <li class="l-b">text</li>
+            </ul>
+        </div>
         <div class="T">
             <div class="ip">
                 <img src="assets/img/image.png" alt="" class="n">
@@ -55,6 +63,14 @@
             <div class="m">Marte é o quarto planeta do Sistema Solar, ficando entre a Terra e Júpiter. A 227 milhões de km do Sol, é um planeta formado por superfície rochosa e atmosfera rica em CO2.</div>
         </div>
     </section>
+
+<script>
+     function esconder() {
+    var menu = document.getElementById("menu");
+    menu.classList.toggle("esconder");
+}
+</script>
+
 </body>
 
 </html>

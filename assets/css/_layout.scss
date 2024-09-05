@@ -1,10 +1,11 @@
 body {
   margin: 0px;
-  min-width: 560px;
+  height: 100%;
 }
 
 header {
   display: flex;
+  position: fixed;
   align-items: center;
   background-color: rgb(12, 12, 12);
   width: 100%;
@@ -21,7 +22,7 @@ header {
     color: white;
     letter-spacing: 1px;
     font-family: Jura;
-    margin-left: 750px;
+    margin-left: 35%;
   }
 
 .Pesq {
@@ -172,7 +173,6 @@ input {
 
 .venus{
     background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTd0MJcFGeQg1dzk6JLsQGOPWc5nQLnhGwHSQ&s);
-    background-repeat: no-repeat;
     background-size: cover;
 }
 .terra{
@@ -196,4 +196,67 @@ input {
   color: black;
   text-align: center;
   font-size: 20px;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.oloko{
+  top: 72px;
+  position: fixed;
+  display: flex;
+  width: 100%;
+  margin-left: 100%;
+  background-color: black;
+  color: white;
+  height: 100vh;
+  justify-content: end;
+  transition-duration: 0.5s;
+  border-radius: 0px 0px 0px 20px;
+
+}
+
+.esconder{
+  background-color: black;
+  color: white;
+  width: 25%;
+  transition-duration: 0.5s;
+  margin-left:75%;
+  border-radius: 0px 0px 0px 20px;
+
+}
+
+.ul{
+  padding: 0px;
+  margin-top: 70px;
+  width: 100%;
+  display: flex;
+  list-style: none;
+  justify-content: start;
+  flex-direction: column;
+}
+
+.ham-m{
+  height: 20px;
+}
+.l-b{
+  height: 50px;
+  width: 100%;
+  border-bottom: 1px solid white;
+}
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.coluna{
+  flex-basis: 50%;
+  box-sizing: border-box;
+  border: 1px solid red;
 }
