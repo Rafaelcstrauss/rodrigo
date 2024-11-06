@@ -125,14 +125,15 @@ input {
 }
 
 .Pl{
-    display: flex;
-    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    height: 150%;
     width: 100%;
     //background: url(https://media1.giphy.com/media/ZrlFjwhclknWE/giphy.gif);
-    justify-content: space-around;
     background-color: rgb(12, 12, 12);
     align-items: center;
 }
+
 
 .CD{
   display: flex;
@@ -141,16 +142,13 @@ input {
     flex-direction: column;
     width: 300px;
     height: 460px;
+    margin-top: 30px;
     background-color:rgb(255, 255, 255);
     border-radius: 20px;
     box-shadow: 1px 2px 1px 1px rgba(255, 255, 255, 0.199);
     transition: all 0.5s;
 
 
-    &:hover{
-        height: 480px;
-        width: 320px;
-    }
 }
 
 .CDI{
@@ -185,6 +183,19 @@ input {
     background-position: center;
     background-size: cover;
 }
+
+.jupiter{
+  background: url(https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2023/02/jupiter_nasa.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.saturno{
+  background: url(https://static.mundoeducacao.uol.com.br/mundoeducacao/conteudo_legenda/0f0d865207019b9ec3e29ecc22be0e17.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
 .TC{
   color: white;
   font-family: 'Jura';
